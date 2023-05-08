@@ -1,0 +1,12 @@
+.Pokecard {
+    display: inline-block;
+    width: 225px;
+    height: 200px;
+    margin:2em;
+    padding-top: 4%;
+    border-color: cornflowerblue;
+    border-radius: 15%;
+    background-color: lightcyan;
+    border-width: 5px;
+    border-style: groove;
+}
