@@ -1,0 +1,47 @@
+.EightBall-container {
+    display: block;
+    width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+    border-style:inset;
+    border-width: 3px;
+    border-color:blueviolet;
+    border-radius: 5%;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: plum;
+}
+.EightBall-msg {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;  
+    background: 
+        radial-gradient(
+        circle at 30% 30%,
+        lightgrey,
+        black
+    );
+    box-shadow: 10px 20px 3px 0px #00000077;
+}
+
+
+
+
