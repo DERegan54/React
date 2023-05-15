@@ -1,0 +1,19 @@
+
+.Board {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  }
+
+.Winner {
+  margin: auto;
+  padding-top: 150px;
+  width: 350px;
+  height: 200px;
+  color:white;
+  font-size: xx-large;
+  background-color: limegreen;
+  border-style: double;
+  border-color: black;
+  border-width: 10px;
+}
