@@ -28,6 +28,7 @@ const BoxList = () => {
 
     return (
         <div>
+            <h1>Color Box Maker</h1>
             <BoxForm addBox={addBox} />
             {newBoxComponents}
         </div>
