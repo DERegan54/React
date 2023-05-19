@@ -10,19 +10,20 @@ const API_URL = "https://deckofcardsapi.com/api/deck";
 const Deck = () => {
     const [deck, setDeck] = useState(null);
     const [cardDrawn, setCardDrawn] = useState([]);
-    const card = useRef();
+    const deckId = useRef();
     
     // Make a request to API to fetch data on deck, and then use data to setDeck()
     useEffect(() => {
         async function fetchDeckData() {
             let deckData = await axios.get(`${API_URL}/new/shuffle/`);
             setDeck(deckData.data);   
+            let id = deckData.data.deck_id;
+            deckId.current = id;
         }
         fetchDeckData(); 
         
     }, [setDeck]);
 
-    // deckId.current.deck_id = deckId;  
 
     // Draw one card on button click
     useEffect(() => {
